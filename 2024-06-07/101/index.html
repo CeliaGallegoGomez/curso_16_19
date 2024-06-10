@@ -24,10 +24,36 @@
     <div id="result"></div>
 
     <script>
+      // Sustituir espacios '' por asteriscos "*"
       const frase =
         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem, odit quos dolorem repellat ea itaque possimus a, consequuntur, impedit neque ab? Similique architecto necessitatibus temporibus dolores hic libero eius perferendis?";
 
-      console.log(frase.split(" "));
+      //const fraseSeparada = frase.split(" ");
+      //console.log(fraseSeparada);
+      let nuevaFrase = "";
+
+      for (let index = 0; index < frase.length; index++) {
+        const caracter = frase[index];
+
+        if (caracter === " ") {
+          nuevaFrase += "*";
+        } else {
+          nuevaFrase += caracter;
+        }
+        console.log(caracter);
+        console.log(nuevaFrase);
+      }
+
+      // SUMAR TODOS LOS NÚMEROS DEL UNO AL 10
+
+      let contador;
+
+      for (let index = 0; index <= 10; index++) {
+        console.log(index);
+        contador+=index;
+      }
+
+      console.log(contador);
       //for (let index = 200; index < frase.length; index++) {
       //const caracter = frase[index];
 
