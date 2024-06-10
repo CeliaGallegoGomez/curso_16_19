@@ -16,32 +16,51 @@
   </head>
 
   <body>
-    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi mollitia
-    rem blanditiis, velit cupiditate doloribus eum voluptatem a tenetur commodi
-    perspiciatis iste recusandae itaque ullam cum nostrum, quisquam,
-    exercitationem quidem.
-    <div id="container" class="container">id container por aquí</div>
-    <div id="result" class="container">id result por aquí</div>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem,
+    odit quos dolorem repellat ea itaque possimus a, consequuntur, impedit neque
+    ab? Similique architecto necessitatibus temporibus dolores hic libero eius
+    perferendis?
+    <div id="container"></div>
+    <div id="result"></div>
+
     <script>
-      console.log("getElementById", document.getElementById("container"));
-      console.log(
-        "getElementsByClassName",
-        document.getElementsByClassName("container")
-      );
-      console.log("getElementsByTagName", document.getElementsByTagName("div"));
-      console.log("queryselector", document.querySelector("div"));
+      const frase =
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem, odit quos dolorem repellat ea itaque possimus a, consequuntur, impedit neque ab? Similique architecto necessitatibus temporibus dolores hic libero eius perferendis?";
 
-      const todosLosDivsTODOS = document.querySelectorAll("div");
-      console.log("querySelectorAll", todosLosDivsTODOS);
-      console.log("script despues del body");
+      console.log(frase.split(" "));
+      //for (let index = 200; index < frase.length; index++) {
+      //const caracter = frase[index];
 
-      for (let index = 0; index < todosLosDivsTODOS.length; index++) {
-        console.log("for", index);
-        console, log(todosLosDivsTODOS[index]);
-        if (index === 1) {
-          todosLosDivsTODOS[index].style.textAlign = "center";
-        }
-      }
+      //console.log(index);
+
+      //if (index >= 200) {
+      //console.log(index, caracter);
+      //}
+      //}
+
+      //for (const caracter of frase) {
+      //console.log(caracter);
+      //}
+
+      //console.log("getElementById", document.getElementById("container"));
+      //console.log(
+      //"getElementsByClassName",
+      //document.getElementsByClassName("container")
+      //);
+      //console.log("getElementsByTagName", document.getElementsByTagName("div"));
+      //console.log("queryselector", document.querySelector("div"));
+
+      //const todosLosDivsTODOS = document.querySelectorAll("div");
+      //console.log("querySelectorAll", todosLosDivsTODOS);
+      //console.log("script despues del body");
+
+      //for (let index = 0; index < todosLosDivsTODOS.length; index++) {
+      //console.log("for", index);
+      //console, log(todosLosDivsTODOS[index]);
+      //if (index === 1) {
+      //todosLosDivsTODOS[index].style.textAlign = "center";
+      //}
+      //}
     </script>
   </body>
 </html>
