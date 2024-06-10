@@ -46,11 +46,16 @@
 
       // SUMAR TODOS LOS NÚMEROS DEL UNO AL 10
 
-      let contador;
+      let contador = 0;
 
       for (let index = 0; index <= 10; index++) {
-        console.log(index);
-        contador+=index;
+        console.log("antes", contador);
+        const resultado = contador + index;
+
+        console.log("resultado", resultado);
+        contador = resultado;
+        console.log("index", index);
+        console.log("despues", contador);
       }
 
       console.log(contador);
