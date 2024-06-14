@@ -94,6 +94,6 @@ for(let index=0;index < numeros.length;index++){
 let numeros = [1, 6, 9, 2, 3, 1, 10, 4, 5, 7, 8, 2];
 let counter = 0;
 for(let index = 1;index=<10;index++){
-
+`
 }
 console.log(counter)
